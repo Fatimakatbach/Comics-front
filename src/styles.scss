@@ -1,0 +1,23 @@
+/* You can add global styles to this file, and also import other style files */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+//GLOBAL
+@import url("https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap");
+
+body {
+  font-family: "Kdam Thmor Pro", sans-serif;
+  background-color: #1F1F21;
+  color: whitesmoke
+}

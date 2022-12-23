@@ -1,0 +1,7 @@
+<figure class="comicCard">
+  <h3>{{ comic.title }}</h3>
+  <img src="{{ comic.cover }}" alt="{{ comic.title }}" />
+  <p>Company: {{ comic.company }}</p>
+  <p>Author: {{ comic.author }}</p>
+  <button (click)="editComic(comic)">Editar</button>
+</figure>

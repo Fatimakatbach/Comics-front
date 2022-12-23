@@ -1,0 +1,30 @@
+.navigator{
+
+    &__list{
+        height: 20vh;
+        background-color: #E9F1F2;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        &--logo{
+            height: 80px;
+            width: 80px;
+            cursor: pointer;
+            transition: all 0.3s;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+
+        & a{
+            text-transform: uppercase;
+            transition: all 0.3s;
+            color: black;
+
+            &:hover{
+                color: #EF5350;
+            }
+        }
+    }
+}
